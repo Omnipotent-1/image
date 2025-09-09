@@ -9,7 +9,7 @@ const faqs = [
       "Text-to-image AI is one kind of technology that turns written descriptions into stunning pictures. Once you give the text-to-image generator a textural description, it will analyze them and turn the words into needed visual elements in the image.",
   },
   {
-    question: "2. What can I do with PicLumen's free text-to-image AI generator?",
+    question: "2. What can I do with Pic-Gen's free text-to-image AI generator?",
     answer: "You can create AI-generated artworks, illustrations, designs, and more with just a text prompt.",
   },
   {
@@ -38,7 +38,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-[#0d022d] to-[#14072e] py-16 text-white">
+    <section className=" py-16 text-white">
       <div className="container mx-auto px-6 max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
           Frequently Asked Questions
@@ -48,9 +48,9 @@ const FAQSection = () => {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className={`rounded-lg transition-all duration-300 ${
+              className={`rounded-lg transition-all duration-300 border-b ${
                 openIndex === index
-                  ? "bg-white/10 backdrop-blur-md border border-white/20 shadow-lg"
+                  ? "bg-white/10 backdrop-blur-md border border-white/20 shadow-lg border-"
                   : ""
               }`}
             >

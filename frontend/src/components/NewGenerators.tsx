@@ -24,7 +24,7 @@ const generators = [
 
 const NewGenerators = () => {
   return (
-    <section className="bg-gradient-to-b from-[#0d022d] to-[#14072e] py-16">
+    <section className=" py-16">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-2xl md:text-3xl font-bold text-white mb-12">
           Upcoming Ai Generators on {" "}
